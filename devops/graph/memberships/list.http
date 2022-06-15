@@ -1,0 +1,3 @@
+#List memberships of "Stater_Repo_accello-applications-gitops_ADM"
+GET {{NVIM_REST_AZU_ORG_URL_VSPSS}}_apis/graph/Memberships/vssgp.Uy0xLTktMTU1MTM3NDI0NS0yMzY1MzIwMDMyLTMwNzcxNjYxNDctMzA5MDcwNDgwNC00NTAwNjI2NjQtMS00MDM4Njg1MzcwLTEzOTYyOTcwMzItMjk4MDk3MzYxMi0zODc5NzMxODE5?api-version=6.0-preview.1
+Authorization: Basic {{NVIM_REST_AZU_API_PAT}}
