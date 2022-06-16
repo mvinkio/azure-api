@@ -1,1 +1,2 @@
 GET https://graph.microsoft.com/v1.0/groups
+Authorization: Bearer {{NVIM_REST_AZU_API_BASIC_AUTH}}

@@ -1,0 +1,4 @@
+POST https://{{AAD_LOGIN_API}}/{{ADD_APP_REGISTRATION_LOCAL_API_TESTING_ID}}/oauth2/v2.0/token
+
+{
+}
