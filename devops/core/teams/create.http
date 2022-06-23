@@ -1,0 +1,8 @@
+# from aad
+POST https://{{NVIM_REST_AZU_DEVOPS_ORG_URL}}/_apis/projects//teams?api-version=6.0
+Authorization: Basic {{NVIM_REST_AZU_API_BASIC_AUTH}}
+Content-Type: application/json
+
+{
+    "originId": "18cdc4d6-ffc6-4f6b-8336-b2de4c538d1a"
+}

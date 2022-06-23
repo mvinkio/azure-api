@@ -1,0 +1,2 @@
+GET https://{{NVIM_REST_AZU_DEVOPS_ORG_URL}}/mvinkiov2/bcd659b9-28af-477d-aaac-687bef1b4608/_apis/wit/templates?api-version=6.0-preview.1
+Authorization: Basic {{NVIM_REST_AZU_API_BASIC_AUTH}}

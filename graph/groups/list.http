@@ -1,2 +1,2 @@
-GET https://graph.microsoft.com/v1.0/groups
-Authorization: Bearer {{NVIM_REST_AZU_API_BASIC_AUTH}}
+GET https://{{GRAPH_API_V1}}/groups
+Authorization: Bearer {{GRAPH_API_BEARER_TOKEN}}

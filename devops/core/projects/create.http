@@ -1,0 +1,17 @@
+POST https://{{NVIM_REST_AZU_DEVOPS_ORG_URL}}/_apis/projects?api-version=6.0
+Authorization: Basic {{NVIM_REST_AZU_API_BASIC_AUTH}}
+Content-Type: application/json
+
+{
+  "name": "nvim-rest-api",
+  "description": "Test nvim-rest-api project2",
+  "visibility": "private",
+  "capabilities": {
+    "versioncontrol": {
+      "sourceControlType": "Git"
+    },
+    "processTemplate": {
+      "templateTypeId": "6b724908-ef14-45cf-84f8-768b5384da45"
+    }
+  }
+}

@@ -1,4 +1,36 @@
-POST https://{{AAD_LOGIN_API}}/{{ADD_APP_REGISTRATION_LOCAL_API_TESTING_ID}}/oauth2/v2.0/token
+POST https://login.microsoftonline.com/6a093a0b-8248-4a3e-9814-0d28c368833d/oauth2/v2.0/token?client_id=e77ef1d2-b03e-423e-b84b-f025f8295be0&scope=https%3A%2F%2Fgraph.microsoft.com%2F.default&client_secret=ysK8Q~r6pHNKBZOxo9zPFI6fSExuaRk.PTLyRdwN&grant_type=client_credentials
+Host: login.microsoftonline.com
+Content-Type: application/x-www-form-urlencoded
+
+{}
+
+POST https://login.microsoftonline.com/6a093a0b-8248-4a3e-9814-0d28c368833d/oauth2/v2.0/token?grant_type=client_credentials
+Host: login.microsoftonline.com
+Content-Type: application/x-www-form-urlencoded
 
 {
+    "client_id": "e77ef1d2-b03e-423e-b84b-f025f8295be0",
+    "client_secret": "ysK8Q~r6pHNKBZOxo9zPFI6fSExuaRk.PTLyRdwN",
+    "scope": "https://graph.microsoft.com/.default",
+    "grant_type": "client_credentials"
 }
+
+# for standard aad
+POST https://login.microsoftonline.com/6a093a0b-8248-4a3e-9814-0d28c368833d/oauth2/v2.0/token
+Host: login.microsoftonline.com
+Content-Type: application/x-www-form-urlencoded
+
+client_id=e77ef1d2-b03e-423e-b84b-f025f8295be0
+&scope=https%3A%2F%2Fgraph.microsoft.com%2F.default
+&client_secret=ysK8Q~r6pHNKBZOxo9zPFI6fSExuaRk.PTLyRdwN
+&grant_type=client_credentials
+
+# for standard aad
+POST https://login.microsoftonline.com/99fdd8a5-e129-4eb4-b718-929e1d187a41/oauth2/v2.0/token
+Host: login.microsoftonline.com
+Content-Type: application/x-www-form-urlencoded
+
+client_id=ceab4a7b-fa20-4c58-8bc2-171282d81c1d
+&scope=https%3A%2F%2Fgraph.microsoft.com%2F.default
+&client_secret=hbm8Q~D8V-~YW1VxVURrFK41sBmax8LIWXzmlchI
+&grant_type=client_credentials

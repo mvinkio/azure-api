@@ -1,0 +1,2 @@
+DELETE https://{{NVIM_REST_AZU_DEVOPS_ORG_URL}}/_apis/projects/b2272d73-211f-4cc9-8a9c-0e583669c879?api-version=6.0
+Authorization: Basic {{NVIM_REST_AZU_API_BASIC_AUTH}}

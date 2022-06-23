@@ -1,0 +1,2 @@
+GET https://{{NVIM_REST_AZU_DEVOPS_ORG_URL}}/_apis/teams?api-version=6.0-preview.3
+Authorization: Basic {{NVIM_REST_AZU_API_BASIC_AUTH}}
